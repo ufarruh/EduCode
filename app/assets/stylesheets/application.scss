@@ -45,3 +45,10 @@ body {
     width: 250px;
   }
 }
+
+.navbar-inverse {
+  border-radius: 0;
+  a {
+    color: white;
+  }
+}
