@@ -40,15 +40,8 @@ body {
   background-color: transparent;
 }
 
-footer {
-  height: 200px;
-  background-color: #626769;
-  position: relative;
-  top: 2px;
-}
-
-footer h4 a {
-  color: white;
-  text-decoration: none;
-  display: inline;
+.form-group {
+  .search {
+    width: 250px;
+  }
 }
