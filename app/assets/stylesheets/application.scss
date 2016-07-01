@@ -56,3 +56,12 @@ body {
 footer .container {
 color: white;
 }
+
+.container .panel-default {
+  width: 800px;
+  margin: auto;
+  .form-control {
+    width: 795px;
+    margin: auto;
+  }
+}
