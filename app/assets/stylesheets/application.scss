@@ -65,3 +65,20 @@ color: white;
     margin: auto;
   }
 }
+
+.container .navbar-fixed-bottom {
+  height: 150px;
+}
+
+.well {
+  margin-top: 50px;
+  height: 400px;
+  width: 750px;
+  background: url(main-pic.jpeg) no-repeat;
+  background-size: 100% 100%;
+   button {
+     position: relative;
+     top: 200px;
+     left: 280px;
+  }
+}
