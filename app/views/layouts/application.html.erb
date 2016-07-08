@@ -31,6 +31,8 @@
           <li><a href="#"><i class="fa fa-bolt fa-lg"></i>  Moments</a></li>
           <li><a href="#"><i class="fa fa-bell fa-lg"></i>  Notification</a></li>
           <li><a href="#"><i class="fa fa-envelope fa-lg"></i>  Messages</a></li>
+          <li><a href="#"><i class="fa fa-twitter" aria-hidden="true"></i></a></li>
+
         </ul>
 
         <ul class="nav navbar-nav navbar-right">
@@ -59,6 +61,8 @@
               <li role="separator" class="divider"></li>
               <li><%= link_to 'Log Out', destroy_user_session_path, method: :delete %></li>
             </ul>
+            <button type="button" class="btn btn-primary btn-lg"><i class="fa fa-fire" aria-hidden="true"></i>
+   Tweet</button>
 
           </li>
           <% end %>
@@ -68,17 +72,6 @@
     </div><!-- /.container-fluid -->
   </nav>
 
-
-  <footer>
-    <div class="container">
-      <div class="navbar navbar-inverse navbar-fixed-bottom">
-        <ul class="list-unstyled">
-          <li>Contacts</li>
-          <li>About Us</li>
-        </ul>
-      </div>
-    </div>
-  </footer>
 
   <p class="notice"><%= notice %></p>
   <p class="alert"><%= alert %></p>

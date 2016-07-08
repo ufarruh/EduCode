@@ -15,9 +15,13 @@
  @import "bootstrap-sprockets";
  @import "bootstrap";
 
+$main-color: #3390EA;
+$background-color: #F3F6F8;
+
  body {
-   background-color: #e8f0f7
- }
+   background-color: $background-color;
+   font-family: 'Helvetica Neue', sans-serif;
+}
 
 h3 {
   text-align: center;
@@ -26,12 +30,8 @@ h3 {
 .search {
   border-radius: 15px;
   padding: 15px;
-  background-color: #e8f0f7;
+  background-color: $background-color;
   width: 100px;
-}
-
-body {
-  font-family: 'Roboto Condensed', sans-serif;
 }
 
 .btn {
@@ -54,38 +54,23 @@ body {
 
 .navbar-inverse {
   border-radius: 0;
+  border-color: $background-color;
   background-color: white;
-  a {
-    color: white;
+  .fa-twitter {
+    font-size: 25px;
+    color: $main-color;
+    position: relative;
+    left: 20px;
   }
-}
 
-footer .container {
-color: white;
-}
-
-.container .panel-default {
-  width: 800px;
-  margin: auto;
-  .form-control {
-    width: 795px;
-    margin: auto;
+  .btn-lg{
+    background-color: $main-color;
+    position: relative;
+    top: 5px;
+    padding: 4px 13px;
   }
-}
 
-.container .navbar-fixed-bottom {
-  height: 150px;
-}
-
-.well {
-  margin-top: 50px;
-  height: 400px;
-  width: 750px;
-  background: url(main-pic.jpeg) no-repeat;
-  background-size: 100% 100%;
-   button {
-     position: relative;
-     top: 200px;
-     left: 280px;
+  .navbar-nav li:hover {
+    background-color: $main-color;
   }
 }
